@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Overpass:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    box-sizing: border-box;
+    background: rgb(63, 94, 251);
+    /* background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%); */
+    background-color: white;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho-menu {
+    display: flex;
+    padding-right: 8%;
+    justify-content: end;
+}
+
+.cabecalho-links {
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #444B59;
+    gap: 80px;
+}
+
+.conteudo-main {
+    padding-left: 6%;
+    padding: 4%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.conteudo-principal {
+    border-radius: 3px solid black;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 40rem;
+    transition: all 0.3s ease-out;
+}
+
+.bem-vindo {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 0.75rem;
+    padding-bottom: 4rem;
+
+}
+
+.titulo-welcome {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #444B59;
+}
+
+.sem-conta {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #444B59;
+
+}
+
+.sign-login {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #8699DA;
+}
+
+.campos-login {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+}
+
+.username-login,
+.password-login {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #444B59;
+}
+
+.coloca-login,
+.coloca-senha {
+    background: #FFFFFF;
+    border: 2px solid #789ADE;
+    width: 40rem;
+    height: 2.5rem;
+    border-radius: 5rem;
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: #789ADE;
+}
+
+.divisao-username {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.divisao-senha {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.divisao-lembrar-senha {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+    gap: 12.19rem;
+}
+
+.remember-me {
+    color: #444B59;
+    font-weight: 400;
+    font-size: 1.25rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.forget-password {
+    font-size: 1.25rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: #8699DA;
+
+}
+
+.botao-posicao {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    align-items: center;
+    gap: 3rem;
+}
+
+.botao-login {
+    background-color: #8699DA;
+    color: #FFFFFF;
+    width: 40rem;
+    height: 5rem;
+    border-radius: 5rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 800;
+
+}
+
+.texto-continua-outros-logins {
+    color: #444B59;
+    font-size: 1.75rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+
+}
+
+.outros-logins-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.75rem;
+}
+
+.links-botoes-outros {
+    display: flex;
+    width: 7.5rem;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+.imagem-fundo {
+    width: 50rem;
+    padding: 6% 6% 6% 6%; 
+}
